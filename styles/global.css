@@ -1,0 +1,129 @@
+/* styles/global.css */
+
+/** Reset some basic elements */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+
+/** Set `margin-bottom` to maintain vertical rhythm */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
+
+/** Lists */
+ul, ol { margin-left: 30px; }
+
+/** Blockquotes */
+blockquote { color: #828282; border-left: 4px solid #e8e8e8; padding-left: 15px; font-size: 18px; letter-spacing: -1px; font-style: italic; }
+
+blockquote > :last-child { margin-bottom: 0; }
+
+/** Code formatting */
+pre, code { font-size: 15px; border: 1px solid #e8e8e8; border-radius: 3px; }
+
+code { padding: 1px 5px; }
+
+pre { padding: 8px 12px; overflow-x: auto; }
+
+pre > code { border: 0; padding-right: 0; padding-left: 0; }
+
+/** Wrapper */
+.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+
+@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
+
+/** Tables */
+table { margin-bottom: 30px; width: 100%; text-align: left; color: #3f3f3f; border-collapse: collapse; border: 1px solid #e8e8e8; }
+
+table tr:nth-child(even) { background-color: #f7f7f7; }
+
+table th, table td { padding: 10px 15px; }
+
+table th { background-color: #f0f0f0; border: 1px solid #dedede; border-bottom-color: #c9c9c9; }
+
+table td { border: 1px solid #e8e8e8; }
+
+:root {
+    --bg: #000000;
+    --fg: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+}
+
+main h1, main h2, main h3, main h4, main h5, main h6, main b, main p  {
+    padding-bottom: 1em;
+}
+
+h1 { font-size: 32px; font-weight: 600; }
+h2 { font-size: 24px; font-weight: 500; }
+h3 { font-size: 18.72px; }
+h4 { font-size: 16px; }
+
+img {
+    width: 50%;
+    vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav, main, footer {
+  padding: 20px;
+}
+
+html {
+    margin: auto;
+    max-width: 90%;
+}
+
+nav {
+    color: var(--fg);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid;
+    border-color: var(--fg);
+}
+
+nav a {
+    color: var(--fg);
+    text-decoration: none;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: monospace;
+}
+
+main {
+    display: block;
+    padding-top: 2em;
+    line-height: 1.6rem;
+    max-width: 75%;
+    margin: auto;
+    font-size: 16px;
+}
+
+main a {
+    color: #ADD8E6;
+}
+
+.blog-title {
+    display: flex;
+}
+
+.blog-title p {
+    display: inline-block;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.blog-entry-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.katex-html {
+    font-size: 1.125em;
+}
