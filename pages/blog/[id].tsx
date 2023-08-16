@@ -9,16 +9,16 @@ import "../../styles/katex.min.css";
 const Post = ({ postData }) => {
     return (
         <Layout>
-            <div class="blog-entry-title">
+            <div className="blog-entry-title">
                 <h1> { postData.title } </h1>
-                <h3 class="blog-entry-date"> [{postData.date}] </h3>
+                <h3 className="blog-entry-date"> [{postData.date}] </h3>
             </div>
             <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </Layout>
     );
 };
 
-export const getStaticPaths: GetStaticPaths = async () => {
+export const getStaticPaths = async () => {
     const paths = getAllPostIds();
     return {
         paths,
@@ -26,7 +26,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     }
 }
 
-export const getStaticProps: GetStaticProps = async ({ params }) => {
+export const getStaticProps = async ({ params }) => {
     const postData = await getPostData(params.id as string)
     return {
         props: {
