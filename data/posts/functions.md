@@ -2,6 +2,7 @@
 title: Functions
 description: Notes on topics that may be pertinent towards calculus.
 date: 01-01-2023
+tags: math,pre-calc
 ---
 
 ## Domain and Range

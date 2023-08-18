@@ -2,6 +2,7 @@
 title: Cofactor Expansion
 author: Henry W.
 date: 07-15-2023
+tags: math,linear algebra
 ---
 
 Recently, I've picked up a little bit of linear algebra to lay the foundation for a project I've been building. Even though I was first introduced to some concepts within the realm of linear algebra in my freshman and sophomore years of high school, they were very shallow topics and I didn't really learn any application. Sometime in 10th grade, I built my first system of equations solver, which I bashed together in only a couple of hours. Recently, to support a small linear algebra library that I've been building, I reimplemented the same program, this time with far more ease.

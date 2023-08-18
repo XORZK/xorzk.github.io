@@ -2,6 +2,7 @@
 title: Limits
 author: Henry W
 date: 08-16-2023
+tags: math,calculus
 ---
 
 I've been doing some reading & review lately in preparation for the school year, and came across the epsilon-delta definition of a limit in James Stewart's infamous Calculus Textbook. Throughout the years, I've come across this definition quite a bit, but have never spent the time to truly understand it. Although, since it's the summer and I have some time on my hands, I decided to spend a couple hours trying to build a deeper understanding of the definition.

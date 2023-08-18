@@ -2,6 +2,7 @@
 title: Real World Applications
 description: List of applications for a variety of topics taught in MCR3U6.
 date: 01-02-2022
+tags: math,cs
 ---
 
 ## Algebraic Expressions: Computer Algebra Systems and Representing Algebraic Equations using Matrices

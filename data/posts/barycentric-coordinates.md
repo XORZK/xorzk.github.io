@@ -2,6 +2,7 @@
 title: Barycentric Coordinates
 author: Henry W.
 date: 07-22-2023
+tags: math,geometry,computer graphics
 ---
 
 Imagine that there exists a triangle $ABC$, for which the vertices exists in $\mathbb{R}^3$. That is, each vertex, which ultimately defines the triangle is a vector in 3-D space. How would one go about checking whether or not some point $P$ lies within triangle $ABC$?

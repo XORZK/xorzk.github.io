@@ -2,6 +2,7 @@
 title: P vs. NP
 description: Notes on the P vs. NP problem
 date: 02-13-2023
+tags: math,cs
 ---
 
 ## A Simple Introduction 

@@ -2,6 +2,7 @@
 title: IDEAS
 author: Henry W.
 date: 06-27-2023
+tags: list
 ---
 
 A running list of ideas for the website.

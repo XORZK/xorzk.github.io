@@ -2,6 +2,7 @@
 title: Peano Axioms
 description: A set of a couple axioms for natural numbers
 date: 04-03-2023
+tags: math,logic
 ---
 
 The Peano axioms define the arithmetical properties of natural numbers ($\in \mathbb{N}$), serving to provide a rigorous foundation for the natural numbers.

@@ -1,7 +1,8 @@
 ---
-title: Physical Automata
-description: An interesting engineering idea with cellular automata
+title: Cellular Automata
+author: Henry W
 date: 01-19-2023
+tags: math,automata
 ---
 
 I had an interesting idea regarding [cellular automata](https://en.wikipedia.org/wiki/Cellular_automaton) a couple days ago. Although there has been a lot of online cellular automata simulation, I've never personally seen someone simulate cellular automata on a physical board. I'm thinking of starting a engineering project that would let me declare the rules regarding a certain cellular automata situation, and then simulating that situation using a physical grid. 
