@@ -1,4 +1,4 @@
-// pages/blog/[slug].js
+// pages/blog/[id].js
 import { marked } from 'marked'
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import matter from 'gray-matter';

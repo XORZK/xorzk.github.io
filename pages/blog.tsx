@@ -1,14 +1,18 @@
 // pages/blog.tsx
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
-import Link from 'next/link'
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import Head from 'next/head';
+import Link from 'next/link';
 import Layout from '../components/Layout';
 import { getAllPostIds, getPostData } from '../lib/posts';
 
 const Blog = ({ posts }) => {
     return (
         <Layout>
+            <Head>
+                <title> blog posts </title>
+            </Head>
             <h1> blog/exobrain posts </h1>
             <div>
                 <ul>
