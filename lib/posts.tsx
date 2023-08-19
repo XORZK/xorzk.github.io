@@ -2,13 +2,14 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import {read} from 'to-vfile'
-import {unified} from 'unified'
-import remarkParse from 'remark-parse'
-import remarkMath from 'remark-math'
-import remarkRehype from 'remark-rehype'
-import rehypeKatex from 'rehype-katex'
-import rehypeStringify from 'rehype-stringify'
+import {read} from 'to-vfile';
+import {unified} from 'unified';
+import remarkGfm from 'remark-gfm';
+import remarkParse from 'remark-parse';
+import remarkMath from 'remark-math';
+import remarkRehype from 'remark-rehype';
+import rehypeKatex from 'rehype-katex';
+import rehypeStringify from 'rehype-stringify';
 
 const postsDirectory = path.join(process.cwd(), "data/posts");
 
@@ -23,6 +24,7 @@ export async function getPostData(id: string) {
       .use(remarkParse)
       .use(remarkMath)
       .use(remarkRehype)
+      .use(remarkGfm)
       .use(rehypeKatex)
       .use(rehypeStringify)
       .process(matterParse.content);
