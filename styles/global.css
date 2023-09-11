@@ -140,7 +140,7 @@ nav a {
 body {
     background: var(--bg);
     color: var(--fg);
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Iosevka", "JetBrains Mono", monospace;
 }
 
 main {
@@ -149,7 +149,7 @@ main {
     line-height: 1.6rem;
     max-width: 75%;
     margin: auto;
-    font-size: 16px;
+	font-size: 20px;
 }
 
 main a {
